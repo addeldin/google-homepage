@@ -1,4 +1,22 @@
 body {
     height: 100%;
     margin: 0;
+    color: #222;
+    font-family: arial, sans-serif;
+    background-color:white;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo > img {
+    padding-top: 120px;
+}
+
+#search-bar {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
